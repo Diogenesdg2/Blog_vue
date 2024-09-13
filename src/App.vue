@@ -1,20 +1,17 @@
-<template>  
-  <div id="app">  
-    <AreaPost />  
-  </div>  
-</template>  
+<script>
+import AreaPost from "./components/AreaPost.vue"
+export default{
+  components: {
+    AreaPost
+  }
+}
+</script>
+<template>
+  <AreaPost />
 
-<script>  
-import AreaPost from './components/AreaPost.vue';  
+  
 
-export default {  
-  name: 'App',  
-  components: {  
-    AreaPost  
-  }  
-}  
-</script>  
 
-<style>  
-/* Estilos globais */  
+</template>
+<style>
 </style>
