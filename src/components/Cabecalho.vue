@@ -23,15 +23,16 @@ export default{
     <div>
         <img id="log":src="logo">
     </div>
-    <div id="btn">
+    
         <Botao textodoBotao="Acessar Agora" link="http://youtube.com.br" />
-    </div>
+    
 </template>
 
 <style>
     #log{
         width: 250px;
         left: 300px;
+        margin-left: 5px
     }
     #btn{
         font-size: 15px;
