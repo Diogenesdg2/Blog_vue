@@ -14,5 +14,20 @@
 
 </template>
 <style scoped>
+    div {
+        float: left;
+        padding: 10px;
+        
+    }       
+    a {
+        color: 000;
+        padding: 20px;
+                
+    }
+    a:hover{
+        color: white;
+        background-color: green;
+        padding: 20px;
+    }
 
 </style>
