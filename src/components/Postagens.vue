@@ -13,15 +13,15 @@ export default{
   
     <div id="container">
         <img v-if="imagem" :src="imagem" alt="sem imagem">
-        <stl class="tit">{{ titulo }}</stl>
-        <stl class="men">{{ mensagem }}</stl>
-        <p></p>
+        <div class="tit">{{ titulo }}</div>
+        <div class="men">{{ mensagem }}</div>
         <br>
-        <stl class="aut">{{ autor }}</stl>
+        <div class="aut">{{ autor }}</div>
     </div>
    
 
 </template>
+
 <style scoped>
     #container{
     position: relative;

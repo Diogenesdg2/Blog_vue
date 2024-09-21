@@ -2,14 +2,6 @@
 import Botao from       "./Botao.vue"
 import logo from        "./imgs/favicon.png"
 export default{
-    component:{
-        Botao
-    },
-    props:{
-        logotipo: String,
-        textodoBotao: String,
-        link: String
-    },
     data() {
         return {
             
@@ -17,6 +9,9 @@ export default{
             
         };
    
+    },
+    components: {
+        Botao,
     }
 
 }
@@ -24,21 +19,24 @@ export default{
 
 <template>
     <div>
-        <img id="log":src="logo">
-    </div>
-    
-        <Botao textodoBotao="Login/Logout" link="http://youtube.com.br" />
-        <Botao textodoBotao="Home" link=""/>
-        <Botao textodoBotao="Postagens" link="./AreaPost.vue"/>
-        <Botao textodoBotao="Inscreva-se" link=""/>    
+        <div>
+            <img id="log" :src="logo"/>
+        </div>
+        <div>
+            <Botao textodoBotao="Login/Logout" link="http://youtube.com.br" />
+            <Botao textodoBotao="Home" link=""/>
+            <Botao textodoBotao="Postagens" link="./AreaPost.vue"/>
+            <Botao textodoBotao="Inscreva-se" link=""/>  
+        </div>
+    </div> 
 </template>
 
 <style>
     #log{
         width: 250px;
-        left: 300px;
         margin-left: 5px
     }
+
     #btn{
         font-size: 15px;
         color: aqua;

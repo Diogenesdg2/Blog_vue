@@ -1,24 +1,21 @@
 <script>
-import Postagens from               "./Postagens.vue"
-import post1Img from                "./imgs/post1.jpg"
-import post2Img from                "./imgs/post2.jpg"
-import post3Img from                "./imgs/post3.jpg"
+    import Postagens from               "./Postagens.vue"
+    import post1Img from                "./imgs/post1.jpg"
+    import post2Img from                "./imgs/post2.jpg"
+    import post3Img from                "./imgs/post3.jpg"
 
-export default{
-  components: {
-    Postagens
-  },
-  data() {
-        return {
-            
-            post1Img, 
-            post2Img,
-            post3Img
-        
-        };
-   
+    export default{
+        data() {
+            return { 
+                post1Img, 
+                post2Img,
+                post3Img
+            }
+        },
+        components: {
+            Postagens
+        }
     }
-}
 </script>
 <template>
     <Postagens :imagem="post1Img"
@@ -28,7 +25,7 @@ export default{
         O MySQL é utilizado em muitas aplicações populares, como Facebook, Twitter, Netflix, Uber, Airbnb, Shopify e Booking.com. 
         Também é utilizado por grandes empresas, como NASA, Bradesco, HP e Sony" 
     autor="Diogenes Gomes" />
-    <P></P>
+    <hr>
     <Postagens :imagem="post2Img"
     titulo="Java" 
     mensagem="Java é uma linguagem de programação e plataforma de computação liberada pela primeira vez pela Sun Microsystems em 1995. 
@@ -37,7 +34,7 @@ export default{
         a confiar no Java também. Embora a maioria dos aplicativos Java modernos combine o runtime e o aplicativo Java, ainda há muitos 
         aplicativos e até mesmo alguns sites que só funcionarão se você tiver um Java instalado no desktop." 
     autor="Diogenes Gomes" />
-    <P></P>
+    <hr>
     <Postagens :imagem="post3Img"
     titulo="PHP" 
     mensagem="PHP é uma linguagem de programação voltada para a web e que tem conquistado cada vez mais adeptos. Fácil de utilizar, 

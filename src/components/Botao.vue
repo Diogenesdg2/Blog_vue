@@ -5,14 +5,14 @@
             textodoBotao: String
         }
     }
-
 </script>
-<template>
-<div >
-    <a :href="link" {{textodoBotao}}></a>
-</div>
 
+<template>
+    <div>
+        <a :href="link">{{textodoBotao}}</a>
+    </div>
 </template>
+
 <style scoped>
     div {
         float: left;
@@ -26,7 +26,7 @@
     }
     a:hover{
         color: white;
-        background-color: green;
+        background-color: rgb(4, 53, 4);
         padding: 20px;
     }
 
