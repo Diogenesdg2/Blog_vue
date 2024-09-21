@@ -23,7 +23,7 @@ export default{
             <img id="log" :src="logo"/>
         </div>
         <div>
-            <Botao textodoBotao="Login/Logout" link="http://youtube.com.br" />
+            <Botao textodoBotao="Login/Logout" link="./Login.vue" />
             <Botao textodoBotao="Home" link=""/>
             <Botao textodoBotao="Postagens" link="./AreaPost.vue"/>
             <Botao textodoBotao="Inscreva-se" link=""/>  
