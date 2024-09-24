@@ -36,15 +36,11 @@ export default{
         width: 250px;
         margin-left: 5px
     }
-
-    #btn{
-        font-size: 15px;
-        color: aqua;
-    }   
+ 
  #container{
 
     position: relative;
-    background-color: rgb(187, 181, 181);
+    background-color: rgb(255, 254, 254);
     width: 140px;
     height: 100px;
     }
