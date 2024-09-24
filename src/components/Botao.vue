@@ -26,7 +26,7 @@
     }
     a:hover{
         color: white;
-        background-color: rgb(4, 53, 4);
+        background-color: rgb(44, 7, 129);
         padding: 20px;
     }
 
