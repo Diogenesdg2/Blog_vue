@@ -1,4 +1,5 @@
 <script>
+import { RouterLink, RouterView } from 'vue-router'
 import Botao from       "./Botao.vue"
 import logo from        "./imgs/favicon.png"
 export default{
