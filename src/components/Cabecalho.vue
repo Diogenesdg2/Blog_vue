@@ -23,7 +23,7 @@ export default{
             <img id="log" :src="logo"/>
         </div>
         <div>
-            <<router-link to="login">Login/Logout</router-link>
+            <RouterLink to="/login">Login/Logout</RouterLink>
             <Botao textodoBotao="Login/Logout" link="./Login.vue" />
             <Botao textodoBotao="Home" link=""/>
             <Botao textodoBotao="Postagens" link="./AreaPost.vue"/>
