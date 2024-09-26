@@ -31,6 +31,7 @@ export default{
             <Botao textodoBotao="Inscreva-se" link=""/>  
         </div>
     </div> 
+    <RouterView />
 </template>
 
 <style>
