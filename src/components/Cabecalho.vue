@@ -25,7 +25,8 @@ export default{
             <img id="log" :src="logo"/>
         </div>
         <div>
-            <RouterLink to="/login">Login</RouterLink>           
+            <RouterLink to="/">Home</RouterLink> 
+            <RouterLink to="/login">Login</RouterLink> 
         </div>
         <div>
           
