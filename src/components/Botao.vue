@@ -1,5 +1,9 @@
 <script>
+import { RouterLink } from 'vue-router'
     export default {
+        components: {
+            RouterLink
+        },
         props: {
             link: String,
             textodoBotao: String
@@ -9,7 +13,8 @@
 
 <template>
     <div>
-        <a :href="link">{{textodoBotao}}</a>
+        <RouterLink :to="link">{{ textodoBotao }}</RouterLink>
+
     </div>
 </template>
 

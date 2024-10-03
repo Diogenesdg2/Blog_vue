@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import Botao from       "./Botao.vue"
 import logo from        "./imgs/favicon.png"
+
 export default{
     data() {
         return {
@@ -24,14 +25,14 @@ export default{
             <img id="log" :src="logo"/>
         </div>
         <div>
-            <RouterLink to="/login">Login/Logout</RouterLink>
-            <Botao textodoBotao="Login/Logout" link="./Login.vue" />
-            <Botao textodoBotao="Home" link=""/>
-            <Botao textodoBotao="Postagens" link="./AreaPost.vue"/>
-            <Botao textodoBotao="Inscreva-se" link=""/>  
+            <RouterLink to="/login">Login</RouterLink>           
+        </div>
+        <div>
+          
+            
         </div>
     </div> 
-    <RouterView />
+    
 </template>
 
 <style>

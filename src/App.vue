@@ -10,11 +10,7 @@ export default{
 </script>
 <template>
   <Cabecalho />
-  <AreaPost />
-
-  
-
-
+  <RouterView/>
 </template>
 <style>
 </style>
