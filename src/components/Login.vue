@@ -5,7 +5,7 @@
 </script>
 <template>
  <div class="d-flex align-items-center justify-content-center min-vh-100 bg-light">  
-    <div class="card" style="width: 80rem;">  
+    <div class="card" style="width: 35rem;">  
       <div class="card-body">  
         <h2 class="card-title text-center">Login</h2>  
         <form>  
